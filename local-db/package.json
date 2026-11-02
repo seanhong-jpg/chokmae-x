@@ -1,0 +1,10 @@
+{
+  "name": "local-db",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node start.mjs" },
+  "dependencies": {
+    "mysql-memory-server": "1.18.0",
+    "mysql2": "3.24.6"
+  }
+}

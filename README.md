@@ -20,6 +20,7 @@ KIRO로 만드는 촉매-X 팀 앱의 시작 템플릿입니다.
 | `.kiro/steering/project-rules.md` | KIRO가 대화할 때마다 자동으로 읽는 규칙. 기술 스택, 포트(8000), DB 환경변수, MVP 범위가 들어 있음 |
 | `first-prompt.txt` | 프로젝트 뼈대를 만들 때 KIRO에게 처음 한 번 보내는 문장 |
 | `.env.example` | DB 접속 정보 4개의 양식. 실제 값은 `.env`에 넣고, `.env`는 GitHub에 올라가지 않음 |
+| `local-db/` | `.env`가 비어 있을 때 임시 MySQL로 앱을 띄우는 도구 (배포 전 확인용) |
 | `.gitignore` | GitHub에 올리지 않을 파일 목록 |
 
 ## 참고
